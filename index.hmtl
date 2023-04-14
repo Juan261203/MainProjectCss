@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Project</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Library to use some icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>+<span class="Store">Store</span></h1>
+            <nav>
+        
+                    <a class="nav-link" href="index.html">Homepage</a>
+                    <a class="nav-link" href="AboutPage.html">About us</a>
+                    <a class="nav-link" href="ProductPage.html">Product</a>
+                    <a class="nav-link" href="ContactPage.html">Contact us</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="DivideScreen">
+                <div class="left">
+                    <h1><span class="Tap">Tap wearable</span> keyboard</h1>
+                    <p>Is a Bluetooth keyboard that lacks any physical keys. Instead, it works by interpreting a series of gestures that you make when moving your hands — specifically the gestures you make when tapping your fingers on a surface.
+                    </p>
+                    <div class="LearnMore">
+                        <a href="AboutPage.html">learn more</a>
+                    </div> 
+                </div>
+                <div class="right">
+                    
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="container">
+
+                <div class="footer-row">
+
+                    <div class="footer-links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="AboutPage.html">About us</a></li>
+                            <li><a href="ProductPage.html">Products</a></li>
+                            <li><a href="ContactPage.html">Contact</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Help</h4>
+                        <ul>
+                            <li><a href="index.html">Questions</a></li>
+                            <li><a href="AboutPage.html">Buy</a></li>
+                            <li><a href="ProductPage.html">Deliveries</a></li>
+                            <li><a href="ContactPage.html">Memberships</a></li>
+                        </ul>
+
+                    </div> 
+
+                    <div class="footer-links">
+                        <h4>Store</h4>
+                        <ul>
+                            <li><a href="index.html">Computers</a></li>
+                            <li><a href="AboutPage.html">Phones</a></li>
+                            <li><a href="ProductPage.html">Tablets</a></li>
+                            <li><a href="ContactPage.html">Tap wearable keyboards</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="Texto de cambio"><i class="fab fa-facebook-f"></i></a>
+                            <a href="Texto de cambio"><i class="fab fa-instagram"></i></a>
+                            <a href="Texto de cambio"><i class="fab fa-twitter"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
